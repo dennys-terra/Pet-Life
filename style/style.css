@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
     color: #263138;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 header {
@@ -18,6 +22,11 @@ header {
     padding-right: 80px;
     padding-top: 24px;
     padding-bottom: 24px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
 header nav a {
@@ -25,6 +34,11 @@ header nav a {
     color: #FFFFFF;
     font-weight: 600;
     padding: 32px;
+    transition: .5s;
+}
+
+header nav a:hover {
+    color: #FF725E;
 }
 
 #inicio {
@@ -54,6 +68,8 @@ h2 {
     padding: 16px 32px;
     text-decoration: none;
 }
+
+
 
 .botao-transparente {
     background-color: transparent;
@@ -126,6 +142,16 @@ h2 {
         border-left: 1px solid #FF725E;
         border-radius: 0 0 8px 8px;
         margin-top: -8px;
+        padding: 0 24px;
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: .2s;
+    }
+
+    .duvida.faqIsActive .paragrafo {
+        height: fit-content;
+        opacity: 1;
         padding: 24px;
     }
 
