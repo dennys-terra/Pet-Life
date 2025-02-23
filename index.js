@@ -5,5 +5,4 @@ const openOrClose = () =>{
         question.addEventListener('click', () => question.classList.toggle('faqIsActive'))
     });
 } 
-
 openOrClose();
