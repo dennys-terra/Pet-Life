@@ -187,10 +187,7 @@ h2 {
     right: 1.5rem;
 }
 
-.question:first-child img {
-    position: absolute;
-    top: 6rem;
-}
+
 
 .question .paragraph {
     border-right: 1px solid var(--primary-color);
@@ -354,6 +351,14 @@ footer p a {
     .questions-text {
         margin-top: -7rem;
     }
+
+    .question img {
+        position: absolute;
+        right: .7rem;
+        top: .7rem;
+    }
+
+
 
     footer {
         display: flex;
