@@ -128,6 +128,10 @@ h2 {
     max-width: 100%;
 }
 
+.clinic-paragraph {
+    margin-bottom: 2rem;
+}
+
 #clinic li {
     margin-bottom: 16px;
     margin-left: 1rem;
@@ -308,6 +312,7 @@ footer p a {
 
     #start .button-transparent {
         max-width: 100%;
+        margin-top: 2rem;
     }
 
     h1,
@@ -321,6 +326,10 @@ footer p a {
         flex-wrap: wrap;
     }
 
+    .clinic-title {
+        margin-top: 2rem;
+    }
+
     .clinic-text {
         margin-top: -5rem;
     }
@@ -330,6 +339,8 @@ footer p a {
         margin-bottom: 1rem;
         z-index: -999;
     }
+
+
 
     #pharmacy {
         margin-top: -7rem;
