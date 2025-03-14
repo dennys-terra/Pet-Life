@@ -1,4 +1,4 @@
-const faq = document.querySelectorAll('.duvida')
+const faq = document.querySelectorAll('.question')
 
 const openOrClose = () =>{
     faq.forEach((question) => {
